@@ -5,6 +5,11 @@ div.img {
     float: left;
     width: 180px;
 }
+.body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 
 div.img:hover {
     border: 1px solid #777;
@@ -20,3 +25,17 @@ div.desc {
     text-align: center;
 }
 /*gallery end*/
+.body > .main {
+    flex: 1;
+}
+
+.body > .footer{
+    display:flex;
+    justify-content: center;
+    background-color: purple !important;
+    width:100%;
+}
+
+.footer > h1{
+    color: darkgreen;
+}
