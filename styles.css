@@ -1,3 +1,10 @@
+/*gallery start*/
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
 body {
     height: 100vh ;
     width: 100vw ;
@@ -6,7 +13,7 @@ body {
     align-items: center ;
     background: #222 ;
     color: white ;
-    
+
 }
 
 header {
@@ -16,3 +23,18 @@ header {
 #myCarousel {
     width: 70% ;
 }
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+/*gallery end*/
